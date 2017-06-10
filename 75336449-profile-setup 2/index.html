@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=0.1">
+    <title>Profile Setup</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="outer">
+        <section>
+            <form action="http://foo.com" method="POST">
+                <fieldset>
+                    <legend>Sign up</legend>
+                    <div class="inputRow1">
+                        <span>
+                            <input type="radio" id="admin" name="accountType" value="admin">
+                            <label for="">admin</label>
+                        </span>
+                        <span>
+                            <input type="radio" id="personal" name="accountType" value="personal" checked="checked">
+                            <label for="personal">personal</label>
+                        </span>
+                        <span>
+                            <input type="radio" id="guest" name="accountType" value="guest">
+                            <label for="guest">guest</label>
+                        </span>
+                    </div>
+                    <div class="inputRow">
+                        <div class="inputCol">
+                            <label for="name">name:</label>
+                            <input type="text" id="name" name="name" class="stupidTextFields">
+                        </div>
+                        <div class="inputCol">
+                            <label for="emailaddress">email address:</label>
+                            <input type="email" id="emailaddress" name="emailaddess" class="stupidTextFields">
+                        </div>
+                    </div>
+                    <div class="inputRow">
+                        <div class="inputCol">
+                            <label for="password">password</label>
+                            <input type="password" id='password' name="password" class="stupidTextFields">
+                        </div>
+                        <div class="inputCol">
+                            <label for="confirm password">confirm password</label>
+                            <input type="password" id="confirmpassword" name="confirmpassword" class="stupidTextFields">
+                        </div>
+                    </div>
+                    <div class="inputRow">
+                        <div class="inputCol">
+                            <label for="file">profile picture</label>
+                            <input type="file" class="file" id='file' name="file">
+                        </div>
+                        <div class="inputCol">
+                            <label for="btnSignUp"></label>
+                            <button class="inputBtn" type="submit">sign up</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>

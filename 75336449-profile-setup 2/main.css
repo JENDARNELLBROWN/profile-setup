@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+html {
+  box-sizing: border-box;
+  
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+  flex-direction: row;
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.1rem;
+}
+
+body {
+  margin: 0;
+   display: block; 
+}
+
+form {
+  padding: 2rem;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FBDA31;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+section {
+  max-width: 1000px;
+  background-color: #ffffff;
+}
+
+
+fieldset {
+  border: none;
+}
+
+.inputRow1 {
+  display: flex;
+  justify-content: space-around; 
+  margin: 3rem 0;
+}
+
+.inputRow {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0;
+}
+
+.stupidTextFields {
+  height: 3rem;
+}
+
+.radio {
+  background-color: blue;
+  }
+
+.inputCol {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  margin: 0 2rem;
+}
+
+.inputBtn {
+  background: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 3rem;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+label {
+  text-align: left;
+  margin: .4rem;
+}
+
+.file {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+input[type=file]::-webkit-file-upload-button {
+ border: 1px solid black;
+ border-radius: 3px;
+ background: none;
+ font-weight: normal;
+ font-size: .9rem;
+}
